@@ -1,0 +1,237 @@
+// ============================================================================
+// LEEKI CALL TAXI — Single source of truth for all site content.
+// Edit business details, packages, routes, copy and images here only.
+// Images: drop real photos into src/assets and import them, or replace the
+// Unsplash URLs below. Every <TempleImage> falls back to a sacred gradient
+// if a photo is missing, so the site never looks broken pre-launch.
+// ============================================================================
+
+export const business = {
+  name: 'LEEKI CALL TAXI',
+  tagline: 'Your Spiritual Journey Starts Here',
+  description:
+    'Affordable and reliable pilgrimage taxi services for families and devotees.',
+  phoneDisplay: '+91 8919369510',
+  phone: '918919369510', // for tel: and wa.me links (no +, no spaces)
+  city: 'Visakhapatnam',
+  region: 'Andhra Pradesh, India',
+};
+
+// Pre-filled WhatsApp greeting
+export const whatsappGreeting =
+  'Namaste 🙏 I would like to book a pilgrimage taxi with LEEKI CALL TAXI.';
+
+export const services = [
+  'Pilgrimage Taxi Service',
+  'Shared Taxi Service',
+  'Temple Tour Packages',
+  'One Day Spiritual Trips',
+  'Family Pilgrimage Tours',
+];
+
+export const heroBadges = [
+  'Safe Journey',
+  'Affordable Packages',
+  'Temple Tours',
+  'Trusted Service',
+];
+
+// ----------------------------------------------------------------------------
+// Popular routes
+// ----------------------------------------------------------------------------
+export const routes = [
+  {
+    id: 'vizag-vadapalli',
+    from: 'Vizag',
+    to: 'Vadapalli',
+    price: 950,
+    unit: 'Per Person',
+    note: 'Riverside Sri Lakshmi Narasimha Swamy darshan',
+    image:
+      'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    id: 'vizag-atuku',
+    from: 'Vizag',
+    to: 'Atuku',
+    price: 950,
+    unit: 'Per Person',
+    note: 'Hill shrine surrounded by forest and waterfalls',
+    image:
+      'https://images.unsplash.com/photo-1545126178-862cdb469409?auto=format&fit=crop&w=1200&q=80',
+  },
+];
+
+// ----------------------------------------------------------------------------
+// Temple packages
+// ----------------------------------------------------------------------------
+export const packages = [
+  {
+    id: 'pkg-hill-waterfalls',
+    name: 'Hill Temple & Waterfalls',
+    price: 900,
+    unit: 'Per Person',
+    image:
+      'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80',
+    includes: [
+      'Hill Temple Visit',
+      'Waterfalls',
+      'Sacred Temple Darshan',
+      'Nature Sightseeing',
+    ],
+  },
+  {
+    id: 'pkg-venkateswara',
+    name: 'Sri Venkateswara Darshan',
+    price: 950,
+    unit: 'Per Person',
+    image:
+      'https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&w=1200&q=80',
+    includes: [
+      'Sri Venkateswara Swamy Temple',
+      'Traditional Pilgrimage Tour',
+    ],
+  },
+  {
+    id: 'pkg-srikurmam',
+    name: 'Govindapuram Circuit',
+    price: 750,
+    unit: 'Per Person',
+    image:
+      'https://images.unsplash.com/photo-1604608672516-f1b9b1d37076?auto=format&fit=crop&w=1200&q=80',
+    includes: ['Govindapuram', 'Arasavalli', 'Sri Kurmam Temple'],
+  },
+  {
+    id: 'pkg-kanakadurga',
+    name: 'Kanaka Durga & Simhachalam',
+    price: 500,
+    unit: 'Per Person',
+    image:
+      'https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1200&q=80',
+    includes: [
+      'Vijayawada',
+      'Kanaka Durga Temple',
+      'Ramateertham',
+      'Simhachalam Temple',
+    ],
+  },
+];
+
+// ----------------------------------------------------------------------------
+// Additional services
+// ----------------------------------------------------------------------------
+export const additionalServices = [
+  'Temple Darshan Trips',
+  'Family Pilgrimage Tours',
+  'Group Booking',
+  'Daily Taxi Service',
+  'Shared Cab',
+  'Private Cab',
+  'Festival Special Trips',
+];
+
+// ----------------------------------------------------------------------------
+// Why choose us  (icon keys map to src/components/ui/Icons.jsx registry)
+// ----------------------------------------------------------------------------
+export const whyChooseUs = [
+  {
+    icon: 'shield',
+    title: 'Safe Travel',
+    text: 'Sanitised, well-maintained vehicles and careful, route-aware driving on every trip.',
+  },
+  {
+    icon: 'wheel',
+    title: 'Experienced Drivers',
+    text: 'Local drivers who know every temple route, timing and shortcut by heart.',
+  },
+  {
+    icon: 'rupee',
+    title: 'Affordable Pricing',
+    text: 'Honest per-person fares with no hidden charges — packages from just ₹500.',
+  },
+  {
+    icon: 'users',
+    title: 'Group Booking',
+    text: 'Comfortable arrangements for families and large devotee groups travelling together.',
+  },
+  {
+    icon: 'temple',
+    title: 'Temple Experts',
+    text: 'Guidance on darshan timings, sevas and rituals so you never miss a blessing.',
+  },
+  {
+    icon: 'car',
+    title: 'Comfortable Vehicles',
+    text: 'Clean, air-conditioned cabs with ample space for long pilgrimage journeys.',
+  },
+];
+
+// ----------------------------------------------------------------------------
+// Booking process
+// ----------------------------------------------------------------------------
+export const bookingSteps = [
+  { icon: 'list', title: 'Select Package', text: 'Pick the temple route or tour that suits your family.' },
+  { icon: 'phone', title: 'Contact Us', text: 'Call or WhatsApp us with your date and group size.' },
+  { icon: 'check', title: 'Confirm Booking', text: 'We confirm your seats, pickup point and timing.' },
+  { icon: 'lotus', title: 'Enjoy Darshan', text: 'Relax and travel — we handle the rest of the journey.' },
+];
+
+// ----------------------------------------------------------------------------
+// Gallery  (mixed: temples, family travel, taxi service)
+// ----------------------------------------------------------------------------
+export const gallery = [
+  { src: 'https://images.unsplash.com/photo-1567591414240-e9c1a2c1e8c4?auto=format&fit=crop&w=900&q=80', alt: 'South Indian temple gopuram at sunrise', tag: 'Temple' },
+  { src: 'https://images.unsplash.com/photo-1604608672516-f1b9b1d37076?auto=format&fit=crop&w=900&q=80', alt: 'Devotees at a sacred shrine', tag: 'Darshan' },
+  { src: 'https://images.unsplash.com/photo-1545126178-862cdb469409?auto=format&fit=crop&w=900&q=80', alt: 'Waterfalls near a hill temple', tag: 'Nature' },
+  { src: 'https://images.unsplash.com/photo-1601999009162-7d09c4f6e0e8?auto=format&fit=crop&w=900&q=80', alt: 'Family travelling together', tag: 'Family' },
+  { src: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=900&q=80', alt: 'Comfortable taxi on a scenic road', tag: 'Taxi' },
+  { src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=900&q=80', alt: 'Ornate temple architecture', tag: 'Temple' },
+];
+
+// ----------------------------------------------------------------------------
+// Testimonials
+// ----------------------------------------------------------------------------
+export const testimonials = [
+  {
+    name: 'Lakshmi Prasad',
+    place: 'Vizag',
+    rating: 5,
+    text: 'Booked the Simhachalam package for my whole family. Clean car, polite driver and we reached every temple right on time. Very reasonable price.',
+  },
+  {
+    name: 'Ramesh Babu',
+    place: 'Gajuwaka',
+    rating: 5,
+    text: 'The Vadapalli trip was peaceful and well organised. The driver knew the darshan timings and helped my elderly parents throughout.',
+  },
+  {
+    name: 'Sridevi M.',
+    place: 'Madhurawada',
+    rating: 5,
+    text: 'Shared taxi was comfortable and affordable. Felt safe travelling as a group of women. Will surely book again for our next pilgrimage.',
+  },
+  {
+    name: 'Venkata Rao',
+    place: 'Anakapalle',
+    rating: 5,
+    text: 'Arranged a group booking for 8 people to Arasavalli and Sri Kurmam. Smooth experience from the first call to drop-off. Highly recommended.',
+  },
+];
+
+// ----------------------------------------------------------------------------
+// Navigation
+// ----------------------------------------------------------------------------
+export const navLinks = [
+  { label: 'Packages', href: '#packages' },
+  { label: 'Routes', href: '#routes' },
+  { label: 'Why Us', href: '#why-us' },
+  { label: 'Gallery', href: '#gallery' },
+  { label: 'Contact', href: '#contact' },
+];
+
+// Packages exposed to the booking form dropdown
+export const packageOptions = [
+  ...packages.map((p) => p.name),
+  ...routes.map((r) => `${r.from} → ${r.to}`),
+  'Custom / Other',
+];
