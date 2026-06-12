@@ -10,59 +10,7 @@ function SunriseScene() {
     <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
       <div className="absolute inset-0 bg-sunrise" />
       {/* Sun */}
-      <motion.div
-        initial={{ y: 80, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 2, ease: 'easeOut' }}
-        className="absolute left-1/2 top-[38%] h-44 w-44 -translate-x-1/2 rounded-full bg-gradient-to-b from-gold-light to-saffron-light blur-[2px] sm:h-64 sm:w-64"
-        style={{ boxShadow: '0 0 120px 50px rgba(232,194,90,0.45)' }}
-      />
-      {/* Mountains + temple silhouette */}
-      <svg
-        className="absolute bottom-0 left-0 w-full"
-        viewBox="0 0 1440 420"
-        preserveAspectRatio="xMidYMax slice"
-        fill="none"
-      >
-        {/* far mountains */}
-        <path d="M0 290 L180 180 L340 270 L520 150 L700 260 L900 170 L1100 270 L1280 190 L1440 280 L1440 420 L0 420 Z" fill="#36134F" opacity="0.55" />
-        {/* near hills */}
-        <path d="M0 340 L240 240 L480 330 L760 230 L1040 330 L1260 260 L1440 330 L1440 420 L0 420 Z" fill="#2B0F3D" opacity="0.85" />
-        {/* temple gopuram silhouette */}
-        <g fill="#1E0A2E">
-          <rect x="660" y="250" width="120" height="170" />
-          <path d="M652 250 L720 130 L788 250 Z" />
-          <path d="M700 130 L720 96 L740 130 Z" />
-          <rect x="716" y="86" width="8" height="14" />
-          <circle cx="720" cy="82" r="5" fill="#D4A017" />
-          {/* steps */}
-          <rect x="630" y="400" width="180" height="20" />
-          <rect x="645" y="385" width="150" height="15" />
-          {/* side shrines */}
-          <rect x="560" y="320" width="60" height="100" />
-          <path d="M555 320 L590 270 L625 320 Z" />
-          <rect x="820" y="320" width="60" height="100" />
-          <path d="M815 320 L850 270 L885 320 Z" />
-        </g>
-        {/* temple flame dots */}
-        <circle cx="590" cy="300" r="3" fill="#E8C25A" opacity="0.9" />
-        <circle cx="850" cy="300" r="3" fill="#E8C25A" opacity="0.9" />
-      </svg>
-      {/* Floating diya glows */}
-      {[
-        'left-[12%] top-[30%]',
-        'right-[14%] top-[24%]',
-        'left-[24%] top-[58%]',
-        'right-[26%] top-[52%]',
-      ].map((pos, i) => (
-        <motion.span
-          key={pos}
-          className={`absolute ${pos} h-2.5 w-2.5 rounded-full bg-gold-light`}
-          style={{ boxShadow: '0 0 18px 6px rgba(232,194,90,0.55)' }}
-          animate={{ y: [0, -16, 0], opacity: [0.5, 1, 0.5] }}
-          transition={{ duration: 4 + i, repeat: Infinity, ease: 'easeInOut' }}
-        />
-      ))}
+
       {/* bottom fade into page */}
       <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-sacred to-transparent" />
     </div>

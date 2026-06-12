@@ -48,7 +48,7 @@ export const routes = [
     unit: 'Per Person',
     note: 'Riverside Sri Lakshmi Narasimha Swamy darshan',
     image:
-      'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=1200&q=80',
+      'https://holaciti.com/assets/place/1745048262_91pnAn5d9E.webp',
   },
   {
     id: 'vizag-atuku',
@@ -58,7 +58,7 @@ export const routes = [
     unit: 'Per Person',
     note: 'Hill shrine surrounded by forest and waterfalls',
     image:
-      'https://images.unsplash.com/photo-1545126178-862cdb469409?auto=format&fit=crop&w=1200&q=80',
+      'https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_700/v1699336539/bbj/dyoflojm5avnwmybtunb.jpg',
   },
 ];
 
@@ -67,26 +67,55 @@ export const routes = [
 // ----------------------------------------------------------------------------
 export const packages = [
   {
-    id: 'pkg-hill-waterfalls',
-    name: 'Hill Temple & Waterfalls',
+    id: 'pkg-aruku',
+    name: 'Aruku Package',
+    price: 750,
+    unit: 'Per Person',
+    image:
+      'https://inditales.com/wp-content/uploads/2023/09/araku-view-point-clouds-passing.jpg',
+    includes: [
+      'Araku Valley Visit',
+      'Borra Caves & Chaprai',
+      'Coffee Plantations & Gardens',
+      'Scenic Hill Station Ride',
+    ],
+  },
+  {
+    id: 'pkg-vadapalli-new',
+    name: 'Vadapalli Package',
     price: 900,
     unit: 'Per Person',
     image:
-      'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ6FhK37EJZE9oAlhtSu9quoOlNz8wNawUfg&s',
     includes: [
-      'Hill Temple Visit',
-      'Waterfalls',
-      'Sacred Temple Darshan',
-      'Nature Sightseeing',
+      'Vadapalli Venkateswara Swamy Temple',
+      'Sri Lakshmi Narasimha Swamy Temple',
+      'River Godavari Darshan',
+      'Hassle-free Yatra Experience',
     ],
   },
+  {
+    id: 'pkg-srikakulam-new',
+    name: 'Srikakulam Package',
+    price: 950,
+    unit: 'Per Person',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/e1/61/46/temple-view-from-outside.jpg?w=1200&h=1200&s=1',
+    includes: [
+      'Arasavalli Sun Temple',
+      'Sri Kurmam (Tortoise Temple)',
+      'Srimukhalingam Temple',
+      'Complete Sacred Circuit',
+    ],
+  },
+
   {
     id: 'pkg-venkateswara',
     name: 'Sri Venkateswara Darshan',
     price: 950,
     unit: 'Per Person',
     image:
-      'https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&w=1200&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/d/de/Malekallu_Tirupathi-balaji%2C_Arsikere.jpg',
     includes: [
       'Sri Venkateswara Swamy Temple',
       'Traditional Pilgrimage Tour',
@@ -98,7 +127,7 @@ export const packages = [
     price: 750,
     unit: 'Per Person',
     image:
-      'https://images.unsplash.com/photo-1604608672516-f1b9b1d37076?auto=format&fit=crop&w=1200&q=80',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMpWWKdL_uzWQU-HyGbuZSPlE1yk4rvajqKg&s',
     includes: ['Govindapuram', 'Arasavalli', 'Sri Kurmam Temple'],
   },
   {
@@ -107,7 +136,7 @@ export const packages = [
     price: 500,
     unit: 'Per Person',
     image:
-      'https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1200&q=80',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsOa36fRbu6n5O0ngJNqZktUsEuVtJmsodRg&s',
     includes: [
       'Vijayawada',
       'Kanaka Durga Temple',
