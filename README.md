@@ -1,4 +1,4 @@
-# LEEKI CALL TAXI — Pilgrimage Taxi Website
+# LIKES CALL TAXI — Pilgrimage Taxi Website
 
 Premium devotional travel website built with React + Vite + Tailwind CSS.
 

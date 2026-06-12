@@ -1,5 +1,5 @@
 // ============================================================================
-// LEEKI CALL TAXI — Single source of truth for all site content.
+// LIKES CALL TAXI — Single source of truth for all site content.
 // Edit business details, packages, routes, copy and images here only.
 // Images: drop real photos into src/assets and import them, or replace the
 // Unsplash URLs below. Every <TempleImage> falls back to a sacred gradient
@@ -7,7 +7,7 @@
 // ============================================================================
 
 export const business = {
-  name: 'LEEKI CALL TAXI',
+  name: 'LIKES CALL TAXI',
   tagline: 'Your Spiritual Journey Starts Here',
   description:
     'Affordable and reliable pilgrimage taxi services for families and devotees.',
@@ -19,7 +19,7 @@ export const business = {
 
 // Pre-filled WhatsApp greeting
 export const whatsappGreeting =
-  'Namaste 🙏 I would like to book a pilgrimage taxi with LEEKI CALL TAXI.';
+  'Namaste 🙏 I would like to book a pilgrimage taxi with LIKES CALL TAXI.';
 
 export const services = [
   'Pilgrimage Taxi Service',
@@ -248,11 +248,38 @@ export const testimonials = [
 ];
 
 // ----------------------------------------------------------------------------
+// Fleet options
+// ----------------------------------------------------------------------------
+export const fleet = [
+  {
+    id: 'fleet-sedan',
+    name: 'Swift Dzire / Toyota Etios',
+    type: 'Comfort Sedan',
+    capacity: '4 + 1 Passengers',
+    luggage: '2-3 Bags',
+    priceText: 'Ideal for small families & solo yatras',
+    features: ['Air Conditioned', 'Experienced Tour Driver', 'Clean & Sanitised', 'Ample boot space'],
+    image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'fleet-suv',
+    name: 'Toyota Innova / Ertiga',
+    type: 'Premium SUV / MUV',
+    capacity: '6/7 + 1 Passengers',
+    luggage: '4-5 Bags',
+    priceText: 'Perfect for larger families & group tours',
+    features: ['Dual AC System', 'Spacious Legroom & Boot', 'Pushback Comfort Seats', 'Music System Enabled'],
+    image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=800&q=80',
+  },
+];
+
+// ----------------------------------------------------------------------------
 // Navigation
 // ----------------------------------------------------------------------------
 export const navLinks = [
   { label: 'Packages', href: '#packages' },
   { label: 'Routes', href: '#routes' },
+  { label: 'Fleet', href: '#fleet' },
   { label: 'Why Us', href: '#why-us' },
   { label: 'Gallery', href: '#gallery' },
   { label: 'Contact', href: '#contact' },

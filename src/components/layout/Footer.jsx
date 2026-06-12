@@ -16,7 +16,7 @@ export default function Footer() {
               <FaGopuram className="h-5 w-5 text-gold-light" />
             </span>
             <div className="leading-tight">
-              <p className="font-display text-lg tracking-widest text-white">LEEKI</p>
+              <p className="font-display text-lg tracking-widest text-white">LIKES</p>
               <p className="text-[10px] uppercase tracking-[0.35em] text-gold-light">Call Taxi</p>
             </div>
           </div>

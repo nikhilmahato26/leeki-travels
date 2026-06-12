@@ -28,6 +28,7 @@ import {
   Mail,
   Clock,
   ArrowUpRight,
+  Briefcase,
 } from 'lucide-react';
 
 // react-icons (brand + devotional glyphs lucide doesn't carry)
@@ -57,6 +58,7 @@ export {
   Mail,
   Clock,
   ArrowUpRight,
+  Briefcase,
   FaWhatsapp,
   FaGopuram,
   TbSteeringWheel,

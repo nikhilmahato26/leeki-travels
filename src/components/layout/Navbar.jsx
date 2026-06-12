@@ -24,7 +24,7 @@ export default function Navbar() {
           </span>
           <span className="leading-tight">
             <span className={`block font-display text-lg tracking-widest ${scrolled ? 'text-royal-dark' : 'text-white'}`}>
-              LEEKI
+              LIKES
             </span>
             <span className={`block text-[10px] uppercase tracking-[0.35em] ${scrolled ? 'text-saffron' : 'text-gold-light'}`}>
               Call Taxi
