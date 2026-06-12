@@ -253,23 +253,23 @@ export const testimonials = [
 export const fleet = [
   {
     id: 'fleet-sedan',
-    name: 'Swift Dzire / Toyota Etios',
+    name: 'Swift Dzire ',
     type: 'Comfort Sedan',
     capacity: '4 + 1 Passengers',
     luggage: '2-3 Bags',
     priceText: 'Ideal for small families & solo yatras',
     features: ['Air Conditioned', 'Experienced Tour Driver', 'Clean & Sanitised', 'Ample boot space'],
-    image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80',
+    image: 'https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Dzire-Tour-S/12461/1762857975456/front-left-side-47.jpg',
   },
   {
     id: 'fleet-suv',
-    name: 'Toyota Innova / Ertiga',
+    name: ' Ertiga',
     type: 'Premium SUV / MUV',
     capacity: '6/7 + 1 Passengers',
     luggage: '4-5 Bags',
     priceText: 'Perfect for larger families & group tours',
     features: ['Dual AC System', 'Spacious Legroom & Boot', 'Pushback Comfort Seats', 'Music System Enabled'],
-    image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=800&q=80',
+    image: 'https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Ertiga-Tour/9617/1762858404297/front-left-side-47.jpg',
   },
 ];
 
