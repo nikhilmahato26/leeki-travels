@@ -26,8 +26,8 @@ export default function Navbar() {
             <span className={`block font-display text-lg tracking-widest ${scrolled ? 'text-royal-dark' : 'text-white'}`}>
               LIKES
             </span>
-            <span className={`block text-[10px] uppercase tracking-[0.35em] ${scrolled ? 'text-saffron' : 'text-gold-light'}`}>
-              Call Taxi
+            <span className={`block text-[10px] uppercase tracking-[0.2em] ${scrolled ? 'text-saffron' : 'text-gold-light'}`}>
+              Tours & Travels
             </span>
           </span>
         </a>

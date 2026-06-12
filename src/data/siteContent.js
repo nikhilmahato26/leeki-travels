@@ -7,10 +7,10 @@
 // ============================================================================
 
 export const business = {
-  name: 'LIKES CALL TAXI',
+  name: 'LIKES TOURS & TRAVELS',
   tagline: 'Your Spiritual Journey Starts Here',
   description:
-    'Affordable and reliable pilgrimage taxi services for families and devotees.',
+    'Affordable and reliable pilgrimage tour packages and travel services for families and devotees.',
   phoneDisplay: '+91 8919369510',
   phone: '918919369510', // for tel: and wa.me links (no +, no spaces)
   city: 'Visakhapatnam',
@@ -19,11 +19,11 @@ export const business = {
 
 // Pre-filled WhatsApp greeting
 export const whatsappGreeting =
-  'Namaste 🙏 I would like to book a pilgrimage taxi with LIKES CALL TAXI.';
+  'Namaste 🙏 I would like to book a pilgrimage tour package with LIKES TOURS & TRAVELS.';
 
 export const services = [
-  'Pilgrimage Taxi Service',
-  'Shared Taxi Service',
+  'Pilgrimage Tour Packages',
+  'Custom Sightseeing Travels',
   'Temple Tour Packages',
   'One Day Spiritual Trips',
   'Family Pilgrimage Tours',
@@ -33,7 +33,7 @@ export const heroBadges = [
   'Safe Journey',
   'Affordable Packages',
   'Temple Tours',
-  'Trusted Service',
+  'Trusted Travels',
 ];
 
 // ----------------------------------------------------------------------------
@@ -152,10 +152,10 @@ export const packages = [
 export const additionalServices = [
   'Temple Darshan Trips',
   'Family Pilgrimage Tours',
-  'Group Booking',
-  'Daily Taxi Service',
-  'Shared Cab',
-  'Private Cab',
+  'Group Tour Booking',
+  'Daily Sightseeing Tours',
+  'Shared Travel Packages',
+  'Private Custom Tours',
   'Festival Special Trips',
 ];
 
@@ -169,9 +169,9 @@ export const whyChooseUs = [
     text: 'Sanitised, well-maintained vehicles and careful, route-aware driving on every trip.',
   },
   {
-    icon: 'wheel',
-    title: 'Experienced Drivers',
-    text: 'Local drivers who know every temple route, timing and shortcut by heart.',
+    icon: 'compass',
+    title: 'Local Tour Guides',
+    text: 'Local tour captains and drivers who know every temple route, timing, and shortcut.',
   },
   {
     icon: 'rupee',
@@ -189,9 +189,9 @@ export const whyChooseUs = [
     text: 'Guidance on darshan timings, sevas and rituals so you never miss a blessing.',
   },
   {
-    icon: 'car',
-    title: 'Comfortable Vehicles',
-    text: 'Clean, air-conditioned cabs with ample space for long pilgrimage journeys.',
+    icon: 'map',
+    title: 'Tour Fleet',
+    text: 'Clean, air-conditioned tour vehicles with ample space for long travels and pilgrimage yatras.',
   },
 ];
 
@@ -199,9 +199,9 @@ export const whyChooseUs = [
 // Booking process
 // ----------------------------------------------------------------------------
 export const bookingSteps = [
-  { icon: 'list', title: 'Select Package', text: 'Pick the temple route or tour that suits your family.' },
+  { icon: 'list', title: 'Choose Tour', text: 'Pick the temple route or tour that suits your family.' },
   { icon: 'phone', title: 'Contact Us', text: 'Call or WhatsApp us with your date and group size.' },
-  { icon: 'check', title: 'Confirm Booking', text: 'We confirm your seats, pickup point and timing.' },
+  { icon: 'check', title: 'Confirm Yatra', text: 'We confirm your seats, pickup point and timing.' },
   { icon: 'lotus', title: 'Enjoy Darshan', text: 'Relax and travel — we handle the rest of the journey.' },
 ];
 
@@ -213,7 +213,7 @@ export const gallery = [
   { src: 'https://images.unsplash.com/photo-1604608672516-f1b9b1d37076?auto=format&fit=crop&w=900&q=80', alt: 'Devotees at a sacred shrine', tag: 'Darshan' },
   { src: 'https://images.unsplash.com/photo-1545126178-862cdb469409?auto=format&fit=crop&w=900&q=80', alt: 'Waterfalls near a hill temple', tag: 'Nature' },
   { src: 'https://images.unsplash.com/photo-1601999009162-7d09c4f6e0e8?auto=format&fit=crop&w=900&q=80', alt: 'Family travelling together', tag: 'Family' },
-  { src: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=900&q=80', alt: 'Comfortable taxi on a scenic road', tag: 'Taxi' },
+  { src: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=900&q=80', alt: 'Comfortable tour vehicle on a scenic road', tag: 'Travel' },
   { src: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=900&q=80', alt: 'Ornate temple architecture', tag: 'Temple' },
 ];
 
@@ -225,19 +225,19 @@ export const testimonials = [
     name: 'Lakshmi Prasad',
     place: 'Vizag',
     rating: 5,
-    text: 'Booked the Simhachalam package for my whole family. Clean car, polite driver and we reached every temple right on time. Very reasonable price.',
+    text: 'Booked the Simhachalam tour package for my whole family. Clean vehicle, polite driver and we reached every temple right on time. Very reasonable price.',
   },
   {
     name: 'Ramesh Babu',
     place: 'Gajuwaka',
     rating: 5,
-    text: 'The Vadapalli trip was peaceful and well organised. The driver knew the darshan timings and helped my elderly parents throughout.',
+    text: 'The Vadapalli pilgrimage was peaceful and well organised. The driver knew the darshan timings and helped my elderly parents throughout.',
   },
   {
     name: 'Sridevi M.',
     place: 'Madhurawada',
     rating: 5,
-    text: 'Shared taxi was comfortable and affordable. Felt safe travelling as a group of women. Will surely book again for our next pilgrimage.',
+    text: 'Shared tour was comfortable and affordable. Felt safe travelling as a group of women. Will surely book again for our next pilgrimage.',
   },
   {
     name: 'Venkata Rao',
@@ -253,7 +253,7 @@ export const testimonials = [
 export const fleet = [
   {
     id: 'fleet-sedan',
-    name: 'Swift Dzire ',
+    name: 'Swift Dzire',
     type: 'Comfort Sedan',
     capacity: '4 + 1 Passengers',
     luggage: '2-3 Bags',
@@ -263,7 +263,7 @@ export const fleet = [
   },
   {
     id: 'fleet-suv',
-    name: ' Ertiga',
+    name: 'Ertiga',
     type: 'Premium SUV / MUV',
     capacity: '6/7 + 1 Passengers',
     luggage: '4-5 Bags',

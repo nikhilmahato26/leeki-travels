@@ -16,9 +16,9 @@ export default function RoutesSection() {
       <div className="container-x relative">
         <SectionHeading
           light
-          eyebrow="Popular Routes"
-          title="Daily Shared Trips from Vizag"
-          lead="Fixed per-person fares on our most loved pilgrimage routes — travel with fellow devotees, leave the driving to us."
+          eyebrow="Popular Tour Routes"
+          title="Daily Shared Excursions from Vizag"
+          lead="Fixed per-person fares on our most loved pilgrimage and sightseeing routes — travel with fellow devotees, leave the details to us."
         />
 
         <div className="mt-14 grid gap-8 lg:grid-cols-2">
@@ -63,7 +63,7 @@ export default function RoutesSection() {
                     size="md"
                     className="shrink-0"
                   >
-                    <Calendar className="h-4 w-4" /> Reserve Seat
+                    <Calendar className="h-4 w-4" /> Book Tour
                   </Button>
                 </div>
               </article>

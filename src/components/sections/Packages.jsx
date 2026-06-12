@@ -31,7 +31,7 @@ export default function Packages() {
                   <div className="absolute inset-0 bg-gradient-to-t from-royal-dark/70 via-transparent to-transparent" />
                   {/* Price tag */}
                   <div className="absolute bottom-4 left-4 rounded-2xl bg-gold-sheen px-4 py-2 shadow-glow">
-                    <span className="font-display text-xl text-royal-dark">₹{pkg.price}</span>
+                    <span className="font-body font-bold text-xl text-royal-dark">₹{pkg.price}</span>
                     <span className="ml-1 text-xs font-semibold text-royal-dark/80">{pkg.unit}</span>
                   </div>
                 </div>

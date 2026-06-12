@@ -11,7 +11,7 @@ export function waLink(message = whatsappGreeting) {
 // Build a tidy WhatsApp message from booking-form values
 export function bookingMessage(data = {}) {
   const lines = [
-    'Namaste 🙏 New booking request — LIKES CALL TAXI',
+    'Namaste 🙏 New booking request — LIKES TOURS & TRAVELS',
     '',
     data.name && `Name: ${data.name}`,
     data.phone && `Phone: ${data.phone}`,

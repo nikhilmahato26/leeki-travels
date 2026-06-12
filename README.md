@@ -1,4 +1,4 @@
-# LIKES CALL TAXI — Pilgrimage Taxi Website
+# LIKES TOURS & TRAVELS — Pilgrimage Tours & Travels Website
 
 Premium devotional travel website built with React + Vite + Tailwind CSS.
 

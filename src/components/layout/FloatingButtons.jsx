@@ -3,7 +3,7 @@ import { Phone, FaWhatsapp, Calendar } from '../ui/Icons';
 import { telLink, waLink } from '../ui/links';
 
 const items = [
-  { label: 'Book Seat', href: '#contact', Icon: Calendar, cls: 'bg-saffron-fade text-white shadow-glow-saffron' },
+  { label: 'Book Tour', href: '#contact', Icon: Calendar, cls: 'bg-saffron-fade text-white shadow-glow-saffron' },
   { label: 'WhatsApp', href: null, Icon: FaWhatsapp, cls: 'bg-[#25D366] text-white shadow-lg shadow-green-900/30', wa: true },
   { label: 'Call Now', href: telLink, Icon: Phone, cls: 'bg-royal-fade text-gold-light shadow-lift' },
 ];

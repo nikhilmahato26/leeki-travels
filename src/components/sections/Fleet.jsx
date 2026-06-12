@@ -75,7 +75,7 @@ export default function Fleet() {
 
                   {/* Booking CTA */}
                   <Button
-                    href={waLink(`Namaste 🙏 I would like to book a ${car.name} (${car.type}) ride with LIKES CALL TAXI. Please share details.`)}
+                    href={waLink(`Namaste 🙏 I would like to book a ${car.name} (${car.type}) package with LIKES TOURS & TRAVELS. Please share details.`)}
                     target="_blank"
                     rel="noopener noreferrer"
                     variant="primary"

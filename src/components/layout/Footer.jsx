@@ -17,7 +17,7 @@ export default function Footer() {
             </span>
             <div className="leading-tight">
               <p className="font-display text-lg tracking-widest text-white">LIKES</p>
-              <p className="text-[10px] uppercase tracking-[0.35em] text-gold-light">Call Taxi</p>
+              <p className="text-[10px] uppercase tracking-[0.2em] text-gold-light">Tours & Travels</p>
             </div>
           </div>
           <p className="mt-5 max-w-xs text-sm leading-relaxed">

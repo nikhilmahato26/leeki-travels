@@ -29,6 +29,8 @@ import {
   Clock,
   ArrowUpRight,
   Briefcase,
+  Compass,
+  Map,
 } from 'lucide-react';
 
 // react-icons (brand + devotional glyphs lucide doesn't carry)
@@ -59,6 +61,8 @@ export {
   Clock,
   ArrowUpRight,
   Briefcase,
+  Compass,
+  Map,
   FaWhatsapp,
   FaGopuram,
   TbSteeringWheel,
@@ -77,6 +81,8 @@ export const iconRegistry = {
   phone: Phone,
   check: CheckCircle2,
   lotus: GiLotus,
+  compass: Compass,
+  map: Map,
 };
 
 // Helper: resolve an icon component from a string key
