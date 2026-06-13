@@ -69,7 +69,7 @@ export const packages = [
   {
     id: 'pkg-aruku',
     name: 'Aruku Package',
-    price: 750,
+    price: 900,
     unit: 'Per Person',
     image:
       'https://inditales.com/wp-content/uploads/2023/09/araku-view-point-clouds-passing.jpg',
@@ -83,7 +83,7 @@ export const packages = [
   {
     id: 'pkg-vadapalli-new',
     name: 'Vadapalli Package',
-    price: 900,
+    price: 950,
     unit: 'Per Person',
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ6FhK37EJZE9oAlhtSu9quoOlNz8wNawUfg&s',
